@@ -12,7 +12,7 @@ public class InteriorWash extends Service{
     }
 
     @Override
-    public String toString() {
+    public String toString(){
         return "InteriorWash{" +
                 "engine_cleaning_included=" + engine_cleaning_included +
                 '}';

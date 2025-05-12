@@ -1,4 +1,4 @@
 package za.ac.cput.domain;
 
-public class FullWash extends Service {
+public class FullWash extends Service  {
 }

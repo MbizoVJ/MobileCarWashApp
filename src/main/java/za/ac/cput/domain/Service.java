@@ -33,7 +33,7 @@ public abstract class  Service {
     }
 
     @Override
-    public String toString() {
+    public String toString()  {
         return "Service{" +
                 "description_of_service='" + description_of_service + '\'' +
                 ", service_id=" + service_id +

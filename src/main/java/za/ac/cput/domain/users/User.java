@@ -1,4 +1,4 @@
-package za.ac.cput.domain;
+package za.ac.cput.domain.users;
 /*User POJO class
 
 Author: Ntombelanga Gqutyana (221646973)

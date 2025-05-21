@@ -1,10 +1,10 @@
-package za.ac.cput.domain;
+package za.ac.cput.domain.users;
 
 /*Booking POJO class
 Author: LJ Jojo (221030921)
 Date: 10 May 2025 */
 
-public class Washer extends User{
+public class Washer extends User {
     private String washerId;
     private boolean availabilityStatus;
     private int rating;

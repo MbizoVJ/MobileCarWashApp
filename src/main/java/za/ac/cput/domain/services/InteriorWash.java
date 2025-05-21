@@ -3,7 +3,7 @@ package za.ac.cput.domain.services;
 public class InteriorWash extends Service {
     private boolean engineCleaningIncluded;
 
-    public boolean getIsEngineCleaningIncluded() {
+    private boolean getIsEngineCleaningIncluded() {
         return engineCleaningIncluded;
     }
 
@@ -30,8 +30,13 @@ public class InteriorWash extends Service {
                 '}';
     }
 
-    public static class Builder extends Service{
-          private boolean engineCleaningIncluded;
+    public static class Builder {
+        private boolean engineCleaningIncluded;
+        private int serviceId;
+        private String nameOfService;
+        private String descriptionOfService;
+        private double price;
+        private double duration;
 
 
         public Builder setDescriptionOfService(String descriptionOfService) {

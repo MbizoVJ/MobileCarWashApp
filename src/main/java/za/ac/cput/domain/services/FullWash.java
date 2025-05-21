@@ -37,9 +37,14 @@ public class FullWash extends Service {
                 '}';
     }
 
-    public static class Builder extends Service{
+    public static class Builder{
         private boolean isUnderBodyWashIncluded;
         private int addedExtraTimeToWash;
+        private int serviceId;
+        private String nameOfService;
+        private String descriptionOfService;
+        private double price;
+        private double duration;
 
 
         public Builder setDescriptionOfService(String descriptionOfService) {

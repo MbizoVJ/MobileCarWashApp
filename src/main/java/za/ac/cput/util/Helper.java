@@ -38,4 +38,11 @@ public class Helper {
         return String.valueOf(accountNumber).length() >= 8;
     }
 
+    // Generate unique Washer ID automatically
+    public static String generateWasherId() {
+        return "W-" + UUID.randomUUID().toString().substring(0,8);
+
+
+    }
+
 }

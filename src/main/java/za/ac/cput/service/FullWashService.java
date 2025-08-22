@@ -1,12 +1,13 @@
 package za.ac.cput.service;
 
+import org.springframework.stereotype.Service;
 import za.ac.cput.Repository.FullWashRepository;
 import za.ac.cput.Repository.IFullWashRepository;
 import za.ac.cput.domain.FullWash;
+import za.ac.cput.domain.User;
 
-import java.util.ArrayList;
 import java.util.List;
-
+@Service
 public class FullWashService implements IFullWashService {
      static IFullWashService ServiceRepo ;
 
@@ -38,6 +39,8 @@ public class FullWashService implements IFullWashService {
     public FullWash update(FullWash t) {
         return this.repository .update(t);
     }
+
+
     @Override
     public List<FullWash> getAll() {
         return this.repository.getAll();
